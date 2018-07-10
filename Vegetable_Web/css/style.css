@@ -1,0 +1,134 @@
+.backgroung
+{
+    background-color:#EDF2C5;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1260px;
+    height: 940px;
+}
+
+.head
+{
+    margin : 53px 160px 8px 160px ;
+}
+
+.title
+{
+    float: left;
+    width: 271px;
+    height: 42px;
+    font-family: "Arial Black";
+    font-size: 36px;
+    color: #778A50;
+    margin: 0px;
+}
+
+.button_fb
+{
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 460px;
+}
+.button_ig
+{
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.straight
+{
+    float: left;
+    width: 1px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.button_Login
+{
+    float: left;
+    width: 60px;
+    height: 25px;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: #778A50;
+    font-size: 14px;
+    font-family: "Arial BoldMT",Sans-serif;
+    color: #778A50;
+    margin-top: 10px;
+    margin-bottom: 17px;
+    margin-left: 10px;
+}
+
+
+
+.main_img
+{
+    width: 940px;
+    height: 440px;
+    margin: 0px 160px;
+}
+.main_img img
+{
+    width: 940px;
+    height: 440px;
+}
+
+.detail
+{
+    margin: 30px 160px 35px 160px;
+}
+.vegetable_img
+{
+    float: left;
+    width: 445px;
+    height: 200px;
+    margin-right: 0px;
+}
+.contact
+{
+    float: left;
+    width: 445px;
+    height: 200px;
+    margin-left: 50px;
+    margin-right: 0px;
+}
+
+.left_title
+{
+    background-color: #778A50;
+    width: 445px;
+    height: 45px;
+}
+.left_title h1
+{
+    height: 15px;
+    font-family: "Arial Black";
+    font-size: 15px;
+    color: #EDF2C5;
+    padding: 15px 0px 15px 30px;
+    margin: 0px;
+}
+
+.vegetable_img img
+{
+    width: 140px;
+    height: 140px;
+}
+.vegetable_img ul
+{
+    height: 140px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.vegetable_img li
+{
+  display: inline-block;
+  margin-right: 5px;
+  width:140px;
+  height: 140px;
+}

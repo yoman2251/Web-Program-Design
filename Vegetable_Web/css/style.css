@@ -1,4 +1,14 @@
-.backgroung
+h1
+{
+    font-family: "Arial Black";
+    font-size: 16px;
+    line-height: 16px;
+    color: #EDF2C5;
+    padding: 15px 0px 15px 30px;
+    margin: 0px;
+}
+
+.background
 {
     background-color:#EDF2C5;
     margin-left: auto;
@@ -18,9 +28,10 @@
     width: 271px;
     height: 42px;
     font-family: "Arial Black";
-    font-size: 36px;
+    font-size: 44px;
+    line-height:42px;
     color: #778A50;
-    margin: 0px;
+    
 }
 
 .button_fb
@@ -28,15 +39,17 @@
     float: left;
     width: 25px;
     height: 25px;
-    margin-top: 10px;
-    margin-left: 460px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    margin-left: 468px;
 }
 .button_ig
 {
     float: left;
     width: 25px;
     height: 25px;
-    margin-top: 10px;
+    margin-top: 9px;
+    margin-bottom: 9px;
     margin-left: 10px;
 }
 .straight
@@ -44,7 +57,11 @@
     float: left;
     width: 1px;
     height: 25px;
-    margin-top: 10px;
+    font-size: 27px;
+    line-height: 25PX;
+    color: #778A50;
+    margin-top: 8px;
+    margin-bottom: 9px;
     margin-left: 10px;
 }
 .button_Login
@@ -52,23 +69,83 @@
     float: left;
     width: 60px;
     height: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial BoldMT",Sans-serif;
+    color: #778A50;
+    text-align: center;
+    line-height: 25PX;
     border-width: 1px;
     border-radius: 3px;
     border-color: #778A50;
-    font-size: 14px;
-    font-family: "Arial BoldMT",Sans-serif;
+    border-style: solid;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    margin-left: 8px;
+}
+.button_Login>a
+{
     color: #778A50;
-    margin-top: 10px;
-    margin-bottom: 17px;
-    margin-left: 10px;
 }
 
+.button_Join
+{
+    float: left;
+    width: 50px;
+    height: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial BoldMT",Sans-serif;
+    color: #778A50;
+    text-align: center;
+    line-height: 25PX;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: #778A50;
+    border-style: solid;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    margin-left: 8px;
+}
+.button_Join>a
+{
+    color: #778A50;
+}
 
+.list 
+{
+  float: left;
+  background-color: #778A50;
+  width: 940px;
+  height: 44px;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+
+.list ul
+{
+  width: 940px;
+  height: 44px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.list li
+{
+  display: inline-block;
+  font-family: "Arial Black";
+  font-size: 16px;
+  line-height: 16px;
+  color:#EDF2C5;
+  margin: 16px 30px 16px 30px;
+  
+}
 
 .main_img
 {
-    width: 940px;
-    height: 440px;
     margin: 0px 160px;
 }
 .main_img img
@@ -79,8 +156,11 @@
 
 .detail
 {
+    height: 200px;
+    width: 940px;
     margin: 30px 160px 35px 160px;
 }
+
 .vegetable_img
 {
     float: left;
@@ -88,6 +168,49 @@
     height: 200px;
     margin-right: 0px;
 }
+
+.left_title, .right_title
+{
+    background-color: #778A50;
+    width: 445px;
+    height: 45px;
+}
+
+.image_set
+{
+    width: 445px;
+    height: 140px;
+    padding: 0px;
+    margin-top: 15px;
+}
+
+.image_set img
+{
+    width: 140px;
+    height: 140px;
+}
+
+.pepper 
+{
+  display: inline-block;
+  margin-right: 8px;
+  width:140px;
+  height: 140px;
+}
+.carrot 
+{
+  display: inline-block;
+  margin-right: 9px;
+  width:140px;
+  height: 140px;
+}
+.corn 
+{
+  display: inline-block;
+  width:140px;
+  height: 140px;
+}
+
 .contact
 {
     float: left;
@@ -97,38 +220,44 @@
     margin-right: 0px;
 }
 
-.left_title
+.text_box
 {
-    background-color: #778A50;
+    height: 140px;
     width: 445px;
-    height: 45px;
-}
-.left_title h1
-{
-    height: 15px;
-    font-family: "Arial Black";
-    font-size: 15px;
-    color: #EDF2C5;
-    padding: 15px 0px 15px 30px;
-    margin: 0px;
+    margin-top: 15px;
+    background-color: #F7FDBA; 
 }
 
-.vegetable_img img
+.text_box p
 {
-    width: 140px;
-    height: 140px;
+    font-family: "ArialMT Reqular";
+    font-size: 12px;
+    letter-spacing: 1.33px;
+    color: #7D7D7D;
+    padding: 16px 0px 16px 15px;
+    margin: 0px;
+    
 }
-.vegetable_img ul
+
+.HR
 {
-    height: 140px;
-    margin-top: 15px;
-    margin-bottom: 0px;
-    padding: 0px;
+    height: 1px;
+    width: 414px;
+    margin: 0px 14.5px;
+    color: #7D7D7D;
 }
-.vegetable_img li
+
+footer
 {
-  display: inline-block;
-  margin-right: 5px;
-  width:140px;
-  height: 140px;
+    background-color: #778A50;
+    height: 60px;
+    width: 100%;
+}
+footer p
+{
+    font-family: "ArialMT Reqular";
+    font-size: 12px;
+    line-height: 60px;
+    color: #EDF2C5;
+    margin: 24px 479px 25px 479px;
 }

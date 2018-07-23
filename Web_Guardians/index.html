@@ -1,193 +1,75 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
-
         <title>Fubon Guardians</title>
         <link href="css/style.css" type="text/css" rel="stylesheet">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
     </head>
 
-    <body id="page-top">         <!--網頁內容區-->
-        
-        <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container-field">
-                <a class="navbar-brand js-scroll-trigger" href="index.html">
-                    <div class="logo">
-                    <img src="img/logo.png" alt="logo">
-                </div>
-                </a>
-                <!--<button class="navbar-toggler navbar-toggler-right nav_color" 
-                    type="button" data-toggle="collapse" data-target="#navbarResponsive" 
-                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>-->
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#">訊息</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#">球場</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#">戰力</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#">賽程</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#">商城</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#">購票</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#">登入</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#"><img src="img/btn_facebook.png"></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#"><img src="img/btn_youtube.png"></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#"><img src="img/btn_instagram.png"></a>
-                        </li>
+    <body>
+        <div id="wrapper">
+            <header>              
+                <div class="logo"><a href="#"><img src="img/logo.png"></a></div>
+                <nav class="list">
+                    <ul style=list-style-type:none>
+                        <a href="#" style="text-decoration:none"><li>訊息</li></a>
+                        <a href="#" style="text-decoration:none"><li>球場</li></a>
+                        <a href="#" style="text-decoration:none"><li>戰力</li></a>
+                        <a href="#" style="text-decoration:none"><li>賽程</li></a>
+                        <a href="#" style="text-decoration:none"><li>商城</li></a>
+                        <a href="#" style="text-decoration:none"><li>購票</li></a>
+                        <a href="#" style="text-decoration:none"><li>登入</li></a>
                     </ul>
+                </nav>
+                <div class="button">
+                    <div class="button_fb"><a href="#"><img src="img/btn_facebook.png"></a></div>
+                    <div class="button_youtube"><a href="#"><img src="img/btn_youtube.png"></a></div>
+                    <div class="button_ig"><a href="#"><img src="img/btn_instagram.png"></a></div>
                 </div>
+                
+                <div id="all">
+
+                    <div id="main_img"><img src="img/img_main_fubon.png"></div>
+                    <div id="menu">
+                        <img src="img/dot_white.png"><img src="img/dot_white.png">
+                        <img src="img/dot_white.png"><img src="img/dot_white.png">
+                        <img src="img/dot_white.png">
+                    </div>
+                </div>
+             
+            </header>
+
+            <div class="content">    
+                <div class="news">
+                    <div class="news_title"><h1>NEWS 訊息發佈</h1></div>
+                    <div class="image_set">
+                        <div class="News1"><img src="img/News1.jpg"></div>
+                        <div class="News2"><img src="img/News2.jpg"></div>
+                        <div class="News3"><img src="img/News3.jpg"></div>
+                    </div>
+                </div>
+
+                <div class="team">
+                    <div class="player">
+                        <div class="player_title"><h1>PLAYER 球員點將錄</h1></div>
+                        <div class="player_img"><img src="img/rising_north.png"></div>
+                    </div>
+                    
+                    <div class="stats">
+                        <div class="stats_title"><h1>STATS 球隊戰績</h1></div>
+                        <div class="stats_img"><img src="img/stats.png"></div>
+                    </div>
+                </div>
+
+                <div class="shop">
+                    <div class="shop_title"><h1>SHOP 熱賣商品</h1></div>
+                    <div class="player_img"><img src="img/Shops.png"></div>
+                </div>               
             </div>
-        </nav>
 
-        <!--主畫面圖片-->
-        <div class="container-field main_img">
-            <img src="img/img_main_fubon.png">
-        </div>
-
-        <!--正文區標題1-->
-        <section class="news">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-left">
-                        <h1 class="news_title">NEWS 訊息發佈</h1>
-                    </div>
-                </div>
-            </div>   
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-12 text-center">
-                        <div class="service-box mt-5 mx-auto">
-                            <img src="img/News1.jpg" alt="news_1">
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12 text-center">
-                        <div class="service-box mt-5 mx-auto">
-                            <img src="img/News2.jpg" alt="news_2">
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12 text-center">
-                        <div class="service-box mt-5 mx-auto">
-                            <img src="img/News3.jpg" alt="news_3">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-right">
-                        <a href="#"><h6 class="more">more...</h6></a>
-                    </div>
-                </div>
-            </div>   
-        </section>
-
-        <!--正文區標題2-->
-        <section class="player_stats">
-            <div class="container">
-                <div class="row">
-                    <!--正文區標題2(左側)-->
-                    <div class="col-lg-6 col-md-12 text-left">
-                        <div class="service-box mt-5 mx-auto">
-                            <h1 class="news_title">PLAYER 球員點將錄</h1>
-                            <img src="img/rising_north.png" alt="">
-                            <!--<p class="mb-3 serviceh">諮詢服務</p>
-                            <div>
-                                <p class="text-muted mb-0"> 貼近你生活的諮詢服務</p>
-                                <p class="text-muted mb-0"> 藉這個機會來一解你的困惑</p>
-                            </div>-->
-                        </div>
-                    </div>
-                    <!--正文區標題3(右側)-->
-                    <div class="col-lg-6 col-md-12 text-left">
-                        <div class="service-box mt-5 mx-auto">
-                                <h1 class="news_title">STATS 球隊戰績</h1>
-                            <img src="img/stats.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>           
-        </section>
+            <footer>
+                <p>Copyrights 2017 Vegetables cise /Design by Vegetables</p>
+            </footer>
         
-        <!--正文區標題4-->
-        <section class="shops">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-left">
-                        <h1 class="news_title">SHOP 熱賣商品</h1>
-                    </div>
-                </div>
-            </div>   
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <a href="#"><img src="img/Shops.png"></a>
-                    </div>
-                </div>
-            </div>      
-        </section>
-
-        <!---頁尾-->
-        <section class="foot">
-            <div class="col-lg-12 ml-auto text-center footer">
-                <ul style=list-style-type:none id="sponsor">
-                    <li><img src="img/sponsor_富邦銀行.png"></li>
-                    <li><img src="img/sponsor_momo.png"></li>
-                    <li><img src="img/sponsor_SHARP.png"></li>
-                    <li><img src="img/sponsor_全家.png"></li>
-                    <li><img src="img/sponsor_nike.png"></li>
-                </ul>    
-            </div>
-            <div class="col-lg-12 ml-auto text-center footer">
-                <ul style=list-style-type:none id="link">
-                    <li>交通資訊</li>
-                    <li>|</li>
-                    <li>隱私權條款</li>
-                    <li>|</li>
-                    <li><img src="img/btn_facebook.png"></li>
-                    <li>|</li>
-                    <li><img src="img/btn_instagram.png"></li>
-                    <li>|</li>
-                    <li><img src="img/btn_youtube.png"></li>
-                </ul>
-            </div>
-            <div class="col-lg-12 ml-auto text-center footer">
-                <ul style=list-style-type:none id="info">
-                    <li><p>電話:02-6635-9588</p></li>
-                    <li><p>客服信箱：FUBONGUARDIANS@GMAIL.COM</p></li>
-                    <li><p>地址：新北市新莊區和興街66號（新莊棒球場）</p></li>    
-                </ul>
-            </div>
-        </section>
-
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        </div>
     </body>
-    
 </html>
-
-
-
